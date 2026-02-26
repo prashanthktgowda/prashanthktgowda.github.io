@@ -15,7 +15,7 @@ const DATA = {
     location:   "Bengaluru, Karnataka",
     phone:      "+91-8762431756",
     email:      "prashanthktgowda123@gmail.com",
-    linkedin:   "https://www.linkedin.com/in/prashantha-k-t",   // ← update with real URL
+    linkedin:   "www.linkedin.com/in/prashanth-k-t-4b596b249",   // ← update with real URL
     github:     "https://github.com/prashanthkt",               // ← update with real URL
     bio:        "Software Development Engineer with hands-on experience building scalable backend systems and applied AI solutions. Strong foundation in data structures, algorithms, object-oriented design, and system development. Passionate about solving real-world problems through clean architecture, efficient code, and production-ready machine learning applications.",
     available:  true,   // shows "Available for opportunities" badge
@@ -25,7 +25,7 @@ const DATA = {
   stats: [
     { value: "$2M",  label: "Annual Cost Savings" },
     { value: "8.50", label: "CGPA" },
-    { value: "3+",   label: "Years Experience" },
+    { value: "1+",   label: "Years Experience" },
     { value: "∞",    label: "Lines of Code" },
   ],
 
@@ -80,7 +80,7 @@ const DATA = {
   /* ── Education ────────────────────────────────────── */
   education: [
     {
-      institution: "University of Visvesvaraya College of Engineering",
+      institution: "University of Visvesvaraya College of Engineering, Bengaluru",
       degree:       "B.Tech in Artificial Intelligence and Machine Learning",
       period:       "2021 – 2025",
       score:        "CGPA: 8.50",
