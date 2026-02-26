@@ -71,7 +71,7 @@ Change `--cyan` to any color to instantly retheme the whole site.
    git add .
    git commit -m "Initial portfolio"
    git branch -M main
-   git remote add origin https://github.com/prashanthkt/prashanthkt.github.io.git
+   git remote add origin git@github.com:prashanthktgowda/prashanthkt.github.io.git
    git push -u origin main
    ```
 
