@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ── SEO Meta ───────────────────────────────────────────── -->
+  <title>Prashantha K T — Software Engineer</title>
+  <meta name="description" content="Software Engineer at Target Corporation. Backend systems, AI/ML, Kotlin, Micronaut, Kubernetes. Based in Bengaluru." />
+  <meta name="author" content="Prashantha K T" />
+
+  <!-- Open Graph -->
+  <meta property="og:title"       content="Prashantha K T — Software Engineer" />
+  <meta property="og:description" content="Building scalable backend systems and applied AI solutions." />
+  <meta property="og:type"        content="website" />
+  <meta property="og:url"         content="https://prashanthkt.github.io" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary" />
+  <meta name="twitter:title"       content="Prashantha K T" />
+  <meta name="twitter:description" content="Software Engineer · Target Corporation · Bengaluru" />
+
+  <!-- ── Fonts ──────────────────────────────────────────────── -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,400&family=JetBrains+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- ── Stylesheet ─────────────────────────────────────────── -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- ── Custom Cursor ──────────────────────────────────────── -->
+  <div class="cursor"      id="cursor"></div>
+  <div class="cursor-ring" id="cursor-ring"></div>
+
+  <!-- ── Navigation ─────────────────────────────────────────── -->
+  <nav id="navbar">
+    <div class="nav-logo" id="nav-logo"></div>
+    <div class="nav-links" id="nav-links"></div>
+    <button class="nav-hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ── Mobile Drawer ──────────────────────────────────────── -->
+  <div id="mobile-drawer"></div>
+
+  <!-- ── Hero ───────────────────────────────────────────────── -->
+  <section id="hero">
+    <div class="hero-left">
+      <div class="hero-available" id="hero-available" style="display:none;">
+        Available for opportunities
+      </div>
+      <h1 class="hero-name" id="hero-name"></h1>
+      <p class="hero-role" id="hero-role"></p>
+      <p class="hero-bio" id="hero-bio"></p>
+      <div class="hero-cta" id="hero-cta"></div>
+    </div>
+
+    <div class="hero-right">
+      <div class="terminal">
+        <div class="terminal-bar">
+          <span class="t-dot t-dot-r"></span>
+          <span class="t-dot t-dot-y"></span>
+          <span class="t-dot t-dot-g"></span>
+          <span class="terminal-name">prashantha.json</span>
+        </div>
+        <div class="terminal-body" id="terminal-body"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Experience ─────────────────────────────────────────── -->
+  <section id="experience">
+    <div class="section-inner">
+      <div class="section-header reveal">
+        <div class="label">Career</div>
+        <h2 class="section-title">Where I've <em>worked</em></h2>
+      </div>
+      <div class="exp-list" id="exp-list"></div>
+    </div>
+  </section>
+
+  <!-- ── Education ──────────────────────────────────────────── -->
+  <section id="education">
+    <div class="section-inner">
+      <div class="section-header reveal">
+        <div class="label">Background</div>
+        <h2 class="section-title">Where I <em>studied</em></h2>
+      </div>
+      <div class="edu-grid" id="edu-grid"></div>
+    </div>
+  </section>
+
+  <!-- ── Skills ─────────────────────────────────────────────── -->
+  <section id="skills">
+    <div class="section-inner">
+      <div class="section-header reveal">
+        <div class="label">Capabilities</div>
+        <h2 class="section-title">What I <em>bring</em></h2>
+      </div>
+      <div class="skills-grid" id="skills-grid"></div>
+    </div>
+  </section>
+
+  <!-- ── Projects ───────────────────────────────────────────── -->
+  <section id="projects">
+    <div class="section-inner">
+      <div class="section-header reveal">
+        <div class="label">Work</div>
+        <h2 class="section-title">Things I've <em>built</em></h2>
+      </div>
+      <div class="stats-row reveal" id="stats-row"></div>
+      <div class="projects-grid" id="projects-grid"></div>
+    </div>
+  </section>
+
+  <!-- ── Contact ────────────────────────────────────────────── -->
+  <section id="contact">
+    <div class="section-inner">
+      <div class="section-header reveal">
+        <div class="label">Reach out</div>
+        <h2 class="section-title">Let's <em>connect</em></h2>
+      </div>
+      <p class="contact-tagline reveal">
+        Open to interesting engineering challenges, collaborations, and conversations about building things that scale.
+      </p>
+      <div class="contact-links reveal" id="contact-links"></div>
+    </div>
+  </section>
+
+  <!-- ── Footer ─────────────────────────────────────────────── -->
+  <footer>
+    <span id="footer-left"></span>
+    <span id="footer-right"></span>
+  </footer>
+
+  <!-- ── Scripts ────────────────────────────────────────────── -->
+  <!-- Load data first, then main -->
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
